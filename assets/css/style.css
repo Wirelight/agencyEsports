@@ -137,6 +137,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: 600;
 }
 
 .navbar a i {
@@ -1405,6 +1406,7 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  height: 200px;
 }
 
 .team .member .social {
@@ -1480,13 +1482,12 @@ section {
 
 .contact .info-box {
   color: #444;
-  text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
+  padding: 0px 0 30px 0;
   margin-bottom: 30px;
 }
 
-.contact .info-box i {
+.contact .contact-info-box i {
   font-size: 32px;
   color: #68A4C4;
   border-radius: 50%;
