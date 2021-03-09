@@ -2299,3 +2299,11 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+.accordion-body ol::marker, .accordion-body li::marker {
+  font-weight: bold;
+}
+
+.accordion-body li {
+  padding-bottom: 1rem;
+}
