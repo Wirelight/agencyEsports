@@ -27,6 +27,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
 
+.custom-button a {
+  display: inline-block;
+  background: #68A4C4;
+  color: #fff;
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.custom-button a:hover{
+  background: #7aafcb;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1407,7 +1420,6 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  height: 200px;
 }
 
 .team .member .social {
